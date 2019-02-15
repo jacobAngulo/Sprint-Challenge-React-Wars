@@ -1,7 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url('./sw-bg.jpg');
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.Header {
+  text-align: center;
+  background: black;
+  width: 25%;
+  margin: 0 auto;
+  padding: 10px 0;
+  border-radius: 2px;
+  color: rgb(0, 204, 255) ;
+}
+
 .character-card {
   background: black;
   width: 50%;
+  margin: 0 auto;
   color: yellow;
+  border-radius: 2px;
 }
 
 .character-card h1 {
@@ -11,4 +32,8 @@
 .character-card ul {
   align-self: flex-start;
   list-style-type: none;
+}
+
+.character-card ul li {
+  padding-bottom: 10px;
 }
